@@ -47,7 +47,7 @@ export default function FeaturedCourses() {
               <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">{course.title}</p>
               <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">{course.description}</p>
               <Link href={`/courses/${course.slug}`}>
-              <button className="bg-transparent border-gray-600 border-[2px] mt-5 hover:bg-black hover:shadow-white hover:shadow-sm px-3 py-1 rounded-lg">
+              <button className="bg-transparent  border-gray-600 border-[2px] mt-5 hover:bg-black hover:shadow-white hover:shadow-sm px-3 py-1 rounded-lg">
                 Learn More
               </button>
               </Link>
