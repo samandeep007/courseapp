@@ -1,6 +1,9 @@
 import HeroSection from "@/components/HeroSection";
 import Image from "next/image";
 import FeaturedCourses from "@/components/FeaturedCourses";
+import WhyChooseUs from "@/components/WhyChooseUs";
+import Testimonials from "@/components/Testimonials";
+import UpcomingWebinars from "@/components/UpcomingWebinars";
 
 export default function Home() {
   return (
@@ -8,6 +11,9 @@ export default function Home() {
       <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.04]">
       <HeroSection/>
       <FeaturedCourses/>
+      <WhyChooseUs/>
+      <Testimonials/>
+      <UpcomingWebinars/>
       </main>
     </>
   );
