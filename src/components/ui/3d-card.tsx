@@ -116,6 +116,10 @@ export const CardItem = ({
   rotateX?: number | string;
   rotateY?: number | string;
   rotateZ?: number | string;
+<<<<<<< HEAD
+=======
+  [key: string]: any;
+>>>>>>> 19ca9d1c3a4cf68e6b57fde6f03a821f29b3294c
 }) => {
   const ref = useRef<HTMLDivElement>(null);
   const [isMouseEntered] = useMouseEnter();
@@ -151,4 +155,8 @@ export const useMouseEnter = () => {
     throw new Error("useMouseEnter must be used within a MouseEnterProvider");
   }
   return context;
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> 19ca9d1c3a4cf68e6b57fde6f03a821f29b3294c
